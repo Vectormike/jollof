@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap');
+
+.Login {
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	overflow-y: hidden;
+	position: relative;
+	background-size: 50%;
+	height: 100vh;
+	flex-wrap: wrap;
+}
+.form-con {
+	padding: 20px 400px 50px 70px;
+	border-radius: 0 0px 90% 0;
+	background-color: #57937a;
+	display: flex;
+	align-items: center;
+}
+form {
+	background-color: #ffffff;
+	padding: 25px 40px;
+	border-radius: 20px;
+	box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.8) ;
+}
+label {
+	text-align: left;
+}
+.label-brk,
+button {
+	display: block;
+}
+input{
+	margin-bottom:20px;
+}
+input[type="password"], input[type="email"] {
+	padding: 15px 30px;
+	border-radius: 6px;
+	border: 1px solid #aeaeaf;
+	width: 200px;
+	color: black;
+}
+button {
+	text-align: center;
+	padding: 15px 30px;
+	width: 260px;
+	margin: 5px 0;
+	border-radius: 6px;
+	border: none;
+}
+.btn-primary {
+	color: #ffffff;
+	background-color: #57937a;
+}
+.btn-transparent-default {
+	color: #000000;
+	background-color: transparent;
+}
+.btn-transparent-primary {
+	color: #57937a;
+	background-color: transparent;
+}
+.text-primary {
+	color: #57937a;
+}
+.img-con {
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	background-color: transparent;
+}
+.img-con img{
+	width: 700px;
+}
+@media only screen and (max-width: 600px) {
+	.Login {
+		padding: 0;
+		justify-content: center;
+		overflow-y: scroll;
+		background-color: #57937a;
+	}
+	.form-con {
+		padding:20px 15px;
+		border-radius:0;
+		background-color: #57937a;
+		display: flex;
+		align-items: center;
+		order:2;
+	}
+	form {
+		padding: 25px 20px;
+	}
+	.img-con {
+		position: static;
+		background-color: transparent;
+		padding-top:20px;
+		order:1;
+	}
+	.img-con img{
+		width: 300px;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	.form-con {
+		padding: 20px 200px 50px 70px;
+		border-radius: 0 0px 90% 0;
+		background-color: #57937a;
+		display: flex;
+		align-items: center;
+	}
+	.img-con {
+		top: 25%;
+	left: 60%;
+	}
+	.img-con img{
+		width: 300px;
+	}
+	.Login {
+		overflow-y: scroll;
+	}
+}

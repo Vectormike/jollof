@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+#pycharm project and workspace setting files
+.iml
+.xml
+venv/
+.vscode/
+.idea/

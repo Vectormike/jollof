@@ -1,0 +1,30 @@
+{
+  "name": "jollof-login",
+  "version": "1.0.0",
+  "description": "Login page with authentication",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd view && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vectormike/jollof.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vectormike/jollof/issues"
+  },
+  "homepage": "https://github.com/Vectormike/jollof#readme",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

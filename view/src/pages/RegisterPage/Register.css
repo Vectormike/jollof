@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700&display=swap');
+​
+.signup-form-con {
+	padding: 20px 70px 50px 70px;
+	border-radius: 0 0px 90% 0;
+	background-color: #57937a;
+	display: flex;
+	align-items: center;
+	height:100vh;
+	width:50%;
+}
+​
+.signup-form-con form {
+	position:absolute;
+	left:40%;
+	background-color: #ffffff;
+	padding: 25px 40px;
+	border-radius: 20px;
+	box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.8) ;
+}
+label {
+	text-align: left;
+}
+.label-brk,
+button {
+	display: block;
+}
+input{
+	margin-bottom:20px;
+}
+input[type="password"], input[type="email"] {
+	padding: 15px 30px;
+	border-radius: 6px;
+	border: 1px solid #aeaeaf;
+	width: 200px;
+	color: black;
+}
+button {
+	text-align: center;
+	padding: 15px 30px;
+	width: 260px;
+	margin: 5px 0;
+	border-radius: 6px;
+	border: none;
+}
+.btn-primary {
+	color: #ffffff;
+	background-color: #57937a;
+}

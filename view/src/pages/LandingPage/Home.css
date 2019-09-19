@@ -1,0 +1,24 @@
+.Home{
+	background-color: #57937a;
+	overflow-y: hidden;
+	height:100vh;
+}
+.btn-con{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:150px;
+}
+button {
+	text-align: center;
+	padding: 15px 30px;
+	width: 260px;
+	margin: 5px 0;
+	border-radius: 6px;
+	border: none;
+}
+.btn-white{
+	background-color: #ffffff;
+	color:#57937a;
+	margin:0 20px;
+}
